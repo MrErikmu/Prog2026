@@ -1,0 +1,14 @@
+D:\USERS_NO_BORRAR\emu914\RiderProjects\CalculadoraPropinas\CalculadoraPropinas\bin\Debug\net8.0\CalculadoraPropinas.exe
+D:\USERS_NO_BORRAR\emu914\RiderProjects\CalculadoraPropinas\CalculadoraPropinas\bin\Debug\net8.0\CalculadoraPropinas.deps.json
+D:\USERS_NO_BORRAR\emu914\RiderProjects\CalculadoraPropinas\CalculadoraPropinas\bin\Debug\net8.0\CalculadoraPropinas.runtimeconfig.json
+D:\USERS_NO_BORRAR\emu914\RiderProjects\CalculadoraPropinas\CalculadoraPropinas\bin\Debug\net8.0\CalculadoraPropinas.dll
+D:\USERS_NO_BORRAR\emu914\RiderProjects\CalculadoraPropinas\CalculadoraPropinas\bin\Debug\net8.0\CalculadoraPropinas.pdb
+D:\USERS_NO_BORRAR\emu914\RiderProjects\CalculadoraPropinas\CalculadoraPropinas\obj\Debug\net8.0\CalculadoraPropinas.GeneratedMSBuildEditorConfig.editorconfig
+D:\USERS_NO_BORRAR\emu914\RiderProjects\CalculadoraPropinas\CalculadoraPropinas\obj\Debug\net8.0\CalculadoraPropinas.AssemblyInfoInputs.cache
+D:\USERS_NO_BORRAR\emu914\RiderProjects\CalculadoraPropinas\CalculadoraPropinas\obj\Debug\net8.0\CalculadoraPropinas.AssemblyInfo.cs
+D:\USERS_NO_BORRAR\emu914\RiderProjects\CalculadoraPropinas\CalculadoraPropinas\obj\Debug\net8.0\CalculadoraPropinas.csproj.CoreCompileInputs.cache
+D:\USERS_NO_BORRAR\emu914\RiderProjects\CalculadoraPropinas\CalculadoraPropinas\obj\Debug\net8.0\CalculadoraPropinas.dll
+D:\USERS_NO_BORRAR\emu914\RiderProjects\CalculadoraPropinas\CalculadoraPropinas\obj\Debug\net8.0\refint\CalculadoraPropinas.dll
+D:\USERS_NO_BORRAR\emu914\RiderProjects\CalculadoraPropinas\CalculadoraPropinas\obj\Debug\net8.0\CalculadoraPropinas.pdb
+D:\USERS_NO_BORRAR\emu914\RiderProjects\CalculadoraPropinas\CalculadoraPropinas\obj\Debug\net8.0\CalculadoraPropinas.genruntimeconfig.cache
+D:\USERS_NO_BORRAR\emu914\RiderProjects\CalculadoraPropinas\CalculadoraPropinas\obj\Debug\net8.0\ref\CalculadoraPropinas.dll
