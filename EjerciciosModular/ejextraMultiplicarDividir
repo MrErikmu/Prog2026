@@ -1,0 +1,24 @@
+int Multiplicar(int a, int b)
+{
+	for (var i=b; i>0; i--)
+	{
+		a+=a;
+	}
+	return a;
+}
+Console.Writeline(multiplicar(5,2));
+
+
+bool dividir(bool esposible, int a , int b, out res)
+	{
+		if(b=0)
+		{
+			Console.WriteLine("No se puede dividir por 0")
+			res=0;
+			esposible=false
+		}
+		else
+		{	
+			esposible=true;
+		}
+	}
