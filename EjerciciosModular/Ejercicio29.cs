@@ -18,7 +18,7 @@ void Ordenar(ref int a, ref int b, ref int c)
             c = temp;
         }
     }
-    if (b < a && b < c)
+    else if (b < a && b < c)
     {
         if (a < c)
         {
@@ -26,14 +26,27 @@ void Ordenar(ref int a, ref int b, ref int c)
             a = b;
             b = temp;
         }
+        else
+        {
+            temp= a;
+            a=b;
+            b=temp;
+        }
     }
-    if (c < a && c < b)
+    else if (c < a && c < b)
     {
         if (b < a)
         {
             temp = c;
             c = a;
             a = temp;
+           // Con tupla->  (a,b,c) = (c,a,b);
+        }
+        else
+        {
+            temp= c; 
+            c=a;
+            a=temp;
         }
     }
 }
