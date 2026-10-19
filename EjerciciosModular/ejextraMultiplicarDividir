@@ -28,7 +28,10 @@ result++
 	}
 int modulo (int a, int b)
 {
-dividir(a,b)
-return resto;
+if(dividir(a,b,out result, out resto)
+ {
+  return resto;
+ }
+
 }
 
