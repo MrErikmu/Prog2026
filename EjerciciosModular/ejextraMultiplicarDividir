@@ -1,5 +1,5 @@
 int Multiplicar(int a, int b)
-{
+{if(a==0||b==0)=> return 0;
 	for (var i=b; i>0; i--)
 	{
 		a+=a;
@@ -9,8 +9,8 @@ int Multiplicar(int a, int b)
 Console.Writeline(multiplicar(5,2));
 
 
-bool dividir(bool esposible, int a , int b, out res)
-	{
+bool dividir(bool esposible, int a , int b, out result,out resto)
+	{ var resto
 		if(b=0)
 		{
 			Console.WriteLine("No se puede dividir por 0")
@@ -20,5 +20,15 @@ bool dividir(bool esposible, int a , int b, out res)
 		else
 		{	
 			esposible=true;
+do {
+resto=a-b
+result++
+}while(a>b)
 		}
 	}
+int modulo (int a, int b)
+{
+dividir(a,b)
+return resto;
+}
+
