@@ -1,0 +1,31 @@
+Console.WriteLine(Multiplicar(5,2));
+Console.WriteLine(Dividir(10,2).division);
+Console.WriteLine(Modulo(10,2));
+
+int Multiplicar(int numero, int multiplicador)
+{
+    if(numero==0||multiplicador==0) return 0;
+    for (var i=multiplicador; i>0; i--)
+    {
+        numero+=numero;
+    }
+    return numero;
+}
+(int division, int resto) Dividir(int numero, int divisor)
+{
+    int res = 0;
+    if(divisor==0)
+        throw new ArgumentException("No se puede dividir por 0");
+    do
+    {
+        numero -= divisor;
+        res++;
+    } while (numero >= divisor);
+
+    return (res, numero);
+}
+int Modulo (int numero, int divisor)
+{
+    (int, int )resdivi = Dividir(numero, divisor);
+    return resdivi.Item2;
+}
