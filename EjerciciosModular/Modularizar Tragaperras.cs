@@ -84,9 +84,9 @@ int MostrarMenu()
 {
     switch(opcionElegida)
     {
-        case 1: HacerTirada(); break;
-        case 2: AñadirSaldo(); break;
-        case 3: Console.WriteLine("Ha sido un placer. ¡Vuelva pronto!"); break;
+        case (int)OpcionesMenu.HacerTirada: HacerTirada(); break;
+        case (int)OpcionesMenu.AñadirSaldo: AñadirSaldo(); break;
+        case (int)OpcionesMenu.Salir: Console.WriteLine("Ha sido un placer. ¡Vuelva pronto!"); break;
         default: Console.WriteLine("Opción no válida. Por favor, elija 1, 2 o 3."); break;
     };
 }
