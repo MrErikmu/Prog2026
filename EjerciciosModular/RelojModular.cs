@@ -49,7 +49,7 @@ bool ishoraok;
         WriteLine("Solicitando hora final....");
         horafinalanalog = ObtenerHoraAm(); 
         
-        if (horafinalanalog.hora < horainicialanalog.hora)
+        if (horafinalanalog.hora < horainicialanalog.hora||horafinalanalog.formato=="am"&& horainicialanalog.formato=="pm")
         {
             WriteLine("La hora final no puede ser menor que la inicial");
             ishoraok = false;
